@@ -45,7 +45,7 @@
     
     <context-param>
       <param-name>PROXY_BASE_URL</param-name>
-      <param-value>http://161.132.68.230:8080/geoserver</param-value>
+      <param-value>https://josuechiara.tech/geoserver</param-value>
     </context-param>
      
 
