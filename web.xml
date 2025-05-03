@@ -114,6 +114,84 @@
      -->
    </filter>
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+<filter>
+  <filter-name>CorsFilter</filter-name>
+  <filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
+  <init-param>
+    <param-name>cors.allowed.origins</param-name>
+    <param-value>*</param-value>
+  </init-param>
+</filter>
+<filter-mapping>
+  <filter-name>CorsFilter</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
    <filter>
     <filter-name>Spring Delegating Filter</filter-name>
     <filter-class>org.geoserver.filters.SpringDelegatingFilter</filter-class>
