@@ -45,7 +45,7 @@
     
     <context-param>
       <param-name>PROXY_BASE_URL</param-name>
-      <param-value>http://161.132.51.215/geoserver</param-value>
+      <param-value>https://nippondpu/geoserver</param-value>
     </context-param>
     
    
