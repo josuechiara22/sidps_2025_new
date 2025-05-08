@@ -171,7 +171,7 @@
       <filter-class>org.apache.catalina.filters.CorsFilter</filter-class>
       <init-param>
         <param-name>cors.allowed.origins</param-name>
-        <param-value>https://nippondpu.es</param-value>
+        <param-value>https://nippondpu.es,  http://localhost</param-value>
       </init-param>
       <init-param>
         <param-name>cors.allowed.methods</param-name>
